@@ -4,7 +4,7 @@ continue = true
 #intro to game
 def game_intro
   puts "Welocome to Grander Vehicle Heist!"
-en
+end
 #Line that divides text
 def put_a_line
   puts "-" * 50
@@ -73,6 +73,7 @@ while continue
 puts "Congratulaions you are now a felon!"
   continue = false
 end
+
 #   puts "Point to your favorite car on the street and kindly ask the occupent to remove themselves from your new car. if they dont comply there is a trigger on that gun."
 
 # decision = gets.chomp.downcase
